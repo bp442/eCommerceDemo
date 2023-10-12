@@ -1,6 +1,7 @@
 body{
-    background-color:darkgray;
+    background-color: powderblue;
 }
+
 
 table{
     border-spacing: 10px;
@@ -14,10 +15,10 @@ table, th, td{
     text-align: center;
 }
 
-#stocked{
+tr.stocked{
     background-color:greenyellow;
 }
 
-#notStocked{
+tr.notStocked{
     background-color:crimson;
 }
