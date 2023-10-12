@@ -1,0 +1,23 @@
+body{
+    background-color:darkgray;
+}
+
+table{
+    border-spacing: 10px;
+    width: 65%;
+    padding: 10px;
+}
+
+
+table, th, td{
+    border: 1px black solid;
+    text-align: center;
+}
+
+#stocked{
+    background-color:greenyellow;
+}
+
+#notStocked{
+    background-color:crimson;
+}

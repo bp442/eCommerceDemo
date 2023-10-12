@@ -12,65 +12,111 @@
 
 <body>
 
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Device Monsters</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Account
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="login.html">Login</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" aria-disabled="true">Register Here!</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="products.html">Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="checkout.html">Cart</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
     <h1>Register here!</h1>
 
-            <div></div>
+    <div></div>
 
-            <form>
-                <div class="mb-3">
-                    <label for="emailInput" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp">
-                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                </div>
-                <div class="mb-3">
-                    <label for="password1" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="password1">
-                </div>
-                <div class="mb-3">
-                    <label for="password2" class="form-label">Confirm your Password</label>
-                    <input type="password" class="form-control" id="password2">
-                </div>
-                <div class="mb-3 form-check">
-                    <input type="checkbox" class="form-check-input" id="Check1">
-                    <label class="form-check-label" for="Check1">Receive Email Newsletters</label>
-                </div>
+    <form>
+        <div class="mb-3">
+            <label for="emailInput" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+            <label for="password1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password1">
+        </div>
+        <div class="mb-3">
+            <label for="password2" class="form-label">Confirm your Password</label>
+            <input type="password" class="form-control" id="password2">
+        </div>
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="Check1">
+            <label class="form-check-label" for="Check1">Receive Email Newsletters</label>
+        </div>
 
-                <div></div>
-                <h3>How did you hear about us?</h3>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="Reach" id="reach1">
-                    <label class="form-check-label" for="reach1">
-                    Social Media (Youtube, Discord, X, Instagram)
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="Reach" id="reach2">
-                    <label class="form-check-label" for="reach2">
-                    Friends/Family
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="Reach" id="reach3">
-                    <label class="form-check-label" for="reach3">
-                    Online Advertisement
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="Reach" id="reach4">
-                    <label class="form-check-label" for="reach4">
-                    Other
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="Reach" id="reach5">
-                    <label class="form-check-label" for="reach5">
-                    I don't want to answer
-                    </label>
-                </div>
-                <button type="submit" class="btn btn-primary">Register</button>
-            </form>
+        <div></div>
+        <h3>How did you hear about us?</h3>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="Reach" id="reach1">
+            <label class="form-check-label" for="reach1">
+                Social Media (Youtube, Discord, X, Instagram)
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="Reach" id="reach2">
+            <label class="form-check-label" for="reach2">
+                Friends/Family
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="Reach" id="reach3">
+            <label class="form-check-label" for="reach3">
+                Online Advertisement
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="Reach" id="reach4">
+            <label class="form-check-label" for="reach4">
+                Other
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="Reach" id="reach5">
+            <label class="form-check-label" for="reach5">
+                I don't want to answer
+            </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Register</button>
+    </form>
 
-            <div></div>
+    <div></div>
 
-            <p>Already have an account? Login <a href="login.html">HERE</a>!</p>
+    <p>Already have an account? Login <a href="login.html">HERE</a>!</p>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
