@@ -2,7 +2,17 @@ body{
     background-color: powderblue;
 }
 
+h1{
+    font-weight:bolder;
+}
 
+h2{
+    font-weight:bold;
+}
+
+h5{
+    font-weight:bold;
+}
 table{
     border-spacing: 10px;
     width: 65%;
@@ -21,4 +31,8 @@ tr.stocked{
 
 tr.notStocked{
     background-color:crimson;
+}
+
+input:invalid{
+    border: 2px dashed red;
 }

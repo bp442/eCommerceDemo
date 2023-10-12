@@ -8,24 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-    <script> {
-            'use strict'
 
-            // Fetch all the forms we want to apply custom Bootstrap validation styles to
-            const forms = document.querySelectorAll('.needs-validation')
-
-            // Loop over them and prevent submission
-            Array.from(forms).forEach(form => {
-                form.addEventListener('submit', event => {
-                    if (!form.checkValidity()) {
-                        event.preventDefault()
-                        event.stopPropagation()
-                    }
-
-                    form.classList.add('was-validated')
-                }, false)
-            })
-        }</script>
 </head>
 
 <body>
@@ -61,7 +44,7 @@
                 </ul>
                 <span class="navbar-text">
                     Find your Computer Needs Here!
-                  </span>
+                </span>
             </div>
         </div>
     </nav>
@@ -96,16 +79,16 @@
     <h2>Billing Information</h2>
 
     <form class="row g-3 needs-validation" novalidate>
-        <div class="col-md-3">
+        <div class="col-md-2">
             <label for="validationCustom01" class="form-label">First name</label>
-            <input type="text" class="form-control" id="validationCustom01" value="First" required>
+            <input type="text" class="form-control" id="validationCustom01" value="First" required="">
             <div class="valid-feedback">
                 Looks good!
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-2">
             <label for="validationCustom02" class="form-label">Last name</label>
-            <input type="text" class="form-control" id="validationCustom02" value="Last" required>
+            <input type="text" class="form-control" id="validationCustom02" value="Last" required="">
             <div class="valid-feedback">
                 Looks good!
             </div>
@@ -113,29 +96,30 @@
         <div class="col-md-4">
             <label for="validationCardNumber" class="form-label">Card Number</label>
             <div class="input-group has-validation">
-                <input type="text" class="form-control" id="validationCardNumber" value="XXXX-XXXX-XXXX-XXXX" required>
+                <input type="text" class="form-control" id="validationCardNumber" value="XXXX-XXXX-XXXX-XXXX"
+                    maxlength="16" required="">
                 <div class="invalid-feedback">
                     Please input a valid card number.
                 </div>
             </div>
         </div>
-        <div class="col-md-1">
+        <div class="col-md-2">
             <label for="validationSecurity" class="form-label">Security Code</label>
-            <input type="text" class="form-control" id="validationSecurity" value="XXX" required>
+            <input type="text" class="form-control" id="validationSecurity" value="XXX" maxlength="3" required="">
             <div class="invalid-feedback">
                 Please provide a valid security code.
             </div>
         </div>
         <div class="col-md-6">
             <label for="validationCity" class="form-label">City</label>
-            <input type="text" class="form-control" id="validationCity" required>
+            <input type="text" class="form-control" id="validationCity" required="">
             <div class="invalid-feedback">
                 Please provide a valid city.
             </div>
         </div>
         <div class="col-md-3">
             <label for="validationState" class="form-label">State</label>
-            <select class="form-select" id="validationState" required>
+            <select class="form-select" id="validationState" required="">
                 <option selected disabled value="">Choose...</option>
                 <option>NJ</option>
             </select>
@@ -145,7 +129,7 @@
         </div>
         <div class="col-md-3">
             <label for="validationZip" class="form-label">Zip Code</label>
-            <input type="text" class="form-control" id="validationZip" required>
+            <input type="text" class="form-control" id="validationZip" required="">
             <div class="invalid-feedback">
                 Please provide a valid zip code.
             </div>
@@ -153,7 +137,7 @@
 
         <div class="col-12">
             <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required="">
                 <label class="form-check-label" for="invalidCheck">
                     Agree to terms and conditions
                 </label>
@@ -163,7 +147,7 @@
             </div>
         </div>
         <div class="col-12">
-            <button class="btn btn-primary" type="submit">Submit form</button>
+            <button class="btn btn-primary" type="submit">Submit Info</button>
         </div>
     </form>
 
@@ -171,4 +155,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+        <script>src = "scripts/checkout.js"</script>
 </body>
