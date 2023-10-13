@@ -1,5 +1,7 @@
 # ECommerce Demo
-Year Up Capstone 1, a project made for us to practice using HTML along with Bootstrap in order to create a 5 page website that mimics an E-Commerce site. Included in all the pages is a navbar so that navigating the site is simple and easy, and it is stickied to the top of the screen so that it is always available.
+Year Up Capstone 1, a project made for us to practice using HTML along with Bootstrap in order to create a 5 page website that mimics an E-Commerce site. Included in all the pages is a navbar so that navigating the site is simple and easy, and it is stickied to the top of the screen so that it is always available. 
+
+Functionality of the site is nonexistent outside of navigation and page responsiveness. This project was solely to practice using Bootstrap, HTML, and CSS in order to create a mockup of an E-Commerce site.
 ***
 ## Table of Contents
 * [Home Page](#home-page)
