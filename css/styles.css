@@ -1,13 +1,20 @@
 body{
     background-color: powderblue;
+    font-family:'Times New Roman', Times, serif;
+    font-size:larger;
 }
 
+li{
+    font-size:x-large;
+    font-weight:bold;
+}
 h1{
     font-weight:bolder;
 }
 
 h2{
     font-weight:bold;
+    font-style:italic;
 }
 
 h5{
