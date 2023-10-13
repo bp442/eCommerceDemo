@@ -1,53 +1,58 @@
-body{
+body {
     background-color: powderblue;
-    font-family:'Times New Roman', Times, serif;
-    font-size:larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
 }
 
-li{
-    font-size:x-large;
-    font-weight:bold;
-}
-h1{
-    font-weight:bolder;
+li {
+    font-size: x-large;
+    font-weight: bold;
 }
 
-h2{
-    font-weight:bold;
-    font-style:italic;
+h1 {
+    font-weight: bolder;
 }
 
-h5{
-    font-weight:bold;
+h2 {
+    font-weight: bold;
+    font-style: italic;
 }
-table{
+
+h5 {
+    font-weight: bold;
+}
+
+table {
     border-spacing: 10px;
     width: 65%;
     padding: 10px;
 }
 
 
-table, th, td{
+table,
+th,
+td {
     border: 1px black solid;
     text-align: center;
 }
 
-tr.stocked{
-    background-color:greenyellow;
+tr.stocked {
+    background-color: greenyellow;
 }
 
-tr.notStocked{
-    background-color:crimson;
+tr.notStocked {
+    background-color: crimson;
 }
 
-input:invalid{
+input:invalid {
     border: 2px dashed red;
 }
 
-.loginForm{
-    width:50%;
-    position: absolute;
+
+.loginForm {
+    width: 50%;
     text-align: center;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
