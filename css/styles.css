@@ -57,3 +57,8 @@ input:invalid {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+#billingInfo{
+    border: 2px dashed black;
+    margin-top: 20px;
+}
