@@ -48,8 +48,8 @@ input:invalid {
     border: 2px dashed red;
 }
 
-.productCards{
-    max-width: 32rem; 
+.productCards {
+    max-width: 32rem;
     overflow-y: scroll;
 }
 
@@ -62,7 +62,7 @@ input:invalid {
     transform: translate(-50%, -50%);
 }
 
-#billingInfo{
+#billingInfo {
     border: 2px dashed black;
     margin-top: 20px;
 }
