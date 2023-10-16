@@ -14,7 +14,7 @@ Functionality of the site is nonexistent outside of navigation and page responsi
 ***
 ### Home Page
 ![Home Page](/images/DeviceMonstersHome.jpg)
-Standard home page, with a large image of a computer setup to drive home the fact that it's meant to be catered towards gaming, but also can be used for professional tasks. The images included are responsive and will resize themselves depending on the screen size. Included are descriptions of the "company mission" as well as hyperlinks to the products page, the login page, and the registration page.
+Standard home page, with a large image of a computer setup to drive home the fact that it's meant to be catered towards gaming, but also can be used for professional tasks. The first image near the top is a slideshow, showing off example builds of gaming PCs with their accessories to show off some products that the store would likely provide. The images included are responsive and will resize themselves depending on the screen size. Included are descriptions of the "company mission" as well as hyperlinks to the products page, the login page, and the registration page.
 
 ***
 ### User Registration Page
