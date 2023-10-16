@@ -48,6 +48,10 @@ input:invalid {
     border: 2px dashed red;
 }
 
+.productCards{
+    max-width: 32rem; 
+    overflow-y: scroll;
+}
 
 .loginForm {
     width: 50%;
