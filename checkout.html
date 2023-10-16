@@ -107,6 +107,14 @@
                 </div>
             </div>
             <div class="col-md-2">
+                <label for="validationSecurity" class="form-label">Expiration Date</label>
+                <input type="text" class="form-control" id="validationExpiration" placeholder="XX/XX" maxlength="4"
+                    required="">
+                <div class="invalid-feedback">
+                    Please provide a valid expiration date.
+                </div>
+            </div>
+            <div class="col-md-2">
                 <label for="validationSecurity" class="form-label">Security Code</label>
                 <input type="text" class="form-control" id="validationSecurity" placeholder="XXX" maxlength="3"
                     required="">
@@ -121,7 +129,7 @@
                     Please provide a valid city.
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-2">
                 <label for="validationState" class="form-label">State</label>
                 <select class="form-select" id="validationState" required="">
                     <option selected disabled value="">Choose...</option>
@@ -151,7 +159,7 @@
                 </div>
             </div>
             <div class="col-12">
-                <button class="btn btn-primary" type="submit">Submit Info</button>
+                <button class="btn btn-primary" type="submit">Submit Order</button>
             </div>
         </form>
     </div>
